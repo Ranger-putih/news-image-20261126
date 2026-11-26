@@ -12,7 +12,11 @@ A one-page newspaper front page, composed with Python PIL — every word is
 rendered by PIL, sharp and exact, and every picture is a small flat-colour
 drawing, also PIL. No image model was allowed to draw text, and no photo was
 used. It sums up Thursday 26 November 2026 in **50 stories across 10 regions
-and 19 fields**, each of the 13 panel stories with its own display picture:
+and 19 fields**, each of the 13 panel stories with its own display picture.
+
+Coverage by region, as printed in the region bar: North America 7, Latin
+America 3, Europe 12, Middle East 12, North Africa 2, Sub-Saharan Africa 2,
+South Asia 3, East Asia 3, Oceania 1, Global 5 — 50 stories in all.
 
 - **US proposes 25% tariffs on India** — New Delhi rejects the finding; the
   rate falls to 17% if a trade deal answers US concerns.
