@@ -61,6 +61,25 @@ list and date-check strip. `main.ts` copies the finished `entry.png` to
 `/output/entry.png` — no network, no clock, no randomness, so both runs
 write identical bytes.
 
+## Version 2 (26 November 2026, after the live audit)
+
+Version 1 sat at #114 on the live board, so the page was rebuilt from a
+comparison with the top-10 entries. What changed:
+
+- **Lead story:** the Macy's 100th Thanksgiving parade (postponed to Saturday
+  by a nor'easter) is now the big panel #1; Gukesh–Sindarov Game 3 is #2.
+  The US-tariffs story and Miss Universe moved to small panels.
+- **Verification badges:** every panel story now carries a status badge —
+  OFFICIAL, CONFIRMED, REPORTED or CLAIM — plus its source, and the footer
+  explains what each badge means ("HOW SURE").
+- **UTC timeline:** a "THE DAY IN UTC" strip runs under the region bar.
+- **Bigger map:** "WHERE IT HAPPENED" is wider and colour-coded by region,
+  with a legend and numbered pins that stay legible.
+- **Date check:** eight excluded stories are now named with their dates,
+  instead of three.
+- The 50 stories, 10 regions and 19 fields are unchanged; `compose_v2.py`
+  (kept outside the repo, in the entry workspace) draws the new page.
+
 ## Sources
 
 Reuters, AP, AFP, WSJ, Al Jazeera, BBC, IBC Global Times, Newszy. Every
