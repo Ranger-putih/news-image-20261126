@@ -1,11 +1,11 @@
-// news-image-20261126 — "The World in One Day", Thursday 26 November 2026.
-// Version 2: Macy's 100th parade leads, every story carries a verification
-// badge, a UTC timeline runs under the region bar, and the map is bigger
-// and colour-coded. Node 22 entrypoint for the make.fun bounty. The
-// finished newspaper image lives in this repo as entry.png; this program
-// reads it and writes it to /output/entry.png. It touches no network,
-// reads no clock and rolls no dice, so both grading runs write identical
-// bytes.
+// news-image-20261126 v4 — "The World in One Day", Thursday 26 November 2026.
+// Surgical revision of v3: panel 12 is now the Niger State reprisal attack
+// (30 killed, police-confirmed 26 Nov) and ALSO ON gains Russia's record
+// $609bn war budget. Everything else on the page is v3 untouched.
+// Node 22 entrypoint for the make.fun bounty. The finished front page lives
+// in this repo as entry.png; this program copies it to /output/entry.png.
+// It reads no network, no clock and no randomness, so both grading runs
+// write identical bytes.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
